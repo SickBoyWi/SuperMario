@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Super Mario Animals and Extras</name>
+	<author>SickBoyWi</author>
+	<supportedVersions><li>1.1</li><li>1.2</li><li>1.3</li><li>1.4</li></supportedVersions>
+	<packageId>SickBoyWi.SuperMarioExtras.OnePointOne</packageId>
+	<description>Super Mario Animals and Extras Collection
+	
+	Imagine that your base gets attacked by a group of manhunter koopa troopas! After killing them off, you gather up the corpses and butcher them; then you make a ton of koopa troopa shell helmets from the shells for you and all your buddies to wear! Your survival odds will be even worse if you're attacked by spinies, or buzzy beetles; however the sweet helmets you can craft up from their shells are way cooler than lowly koopa troopa shell helmets!
+	
+	The goombas work a little different. Once they're killed and butchered they produce fungus instead of meat. It's vegetarian, lol.
+
+	
+	Adds the following new animals (Butchering these creates gets you the items next to its name.) : 
+	Goomba (Mushroom) - Goomba fungus
+	Koopa (Turtle) - meat - Lizard leather - 1 Koopa troopa shell
+	Buzzy Beetle (Strong Armor Backed Turtle Thing) - meat - Light leather - 1 Buzzy beetle shell
+	Spiny (Spike Backed Turtle Thing) - meat - Lizard leather - 1 Spiny shell	
+	
+	The different shells can be turned into simple helmets at a crafting spot or smithy. They provide some protection from sharp attacks. In order from weakest to strongest: koopa troopa, spiny, buzzy beetle. That same order applies to how much they're worth on the market. 
+	
+	
+	So far this only includes critters from the original Super Mario Bros. I may expand into others later (like Yoshis, Dry Bones, and the multitude of others). I tried to keep the animals looking more old-school, rather than using fancy modern versions of them; I for the most part succeeded on that. For now, this was a fun project, but I'm setting it aside. 
+	
+	I'm debating doing this sooner rather than later:
+	Cheep Cheep (Big Weird Bird) - I'm leaving this out because I it's a flying creature (for now), I may add this one in sooner rather than later. It would be pretty easy as it would work just like a large bird. 
+	
+	I will likely be leaving these out:
+	Hammer Bro (Turtle that throws Hammers) - I'm leaving this off for now, because it is less like an animal and more like an intelligent enemy. Seems more like a pawn than an animal.
+	Bowser (Boss Turtle!) - I'm leaving this out for now too; mostly for the same reasons. 
+	
+	If this ends up being popular, I'll probably do another one using the critters from the old school Zelda NES games, as well as adding other Mario Bros related animals. 
+	
+	
+	Image credits go to several different sources. I found starting images at several places on the web, and then altered and expanded them to suit my needs. I didn't make any of them completely from scratch, but all of them were moderately to heavily modified from the originals. 
+	</description>
+</ModMetaData>

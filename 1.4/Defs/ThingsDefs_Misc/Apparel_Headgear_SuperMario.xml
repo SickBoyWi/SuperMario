@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ================================== Shell Helmets ====================================-->
+	
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Apparel_KoopaTroopaShellHelmet</defName>
+    <label>koopa troopa shell helmet</label>
+    <description>A helmet made from a koopa troopa shell; gives decent proction from attacks, and some from heat and cold. Made at crafting spot or smithy.</description>
+    <techLevel>Neolithic</techLevel>
+    <graphicData>
+      <texPath>Things/KoopaTroopaHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+       <KoopaTroopaShell>1</KoopaTroopaShell>
+    </costList>   
+	<statBases>
+		<WorkToMake>2500</WorkToMake>
+		<MaxHitPoints>90</MaxHitPoints>
+		<Mass>2</Mass>
+        <Flammability>0.4</Flammability>
+        <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+        <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+        <ArmorRating_Heat>0.30</ArmorRating_Heat>
+        <Insulation_Cold>4</Insulation_Cold>
+        <Insulation_Heat>2</Insulation_Heat>
+		<EquipDelay>2.5</EquipDelay>
+		<MarketValue>100</MarketValue>
+    </statBases>
+	<recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+	<apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/KoopaTroopaHelmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Apparel_SpinyShellHelmet</defName>
+    <label>spiny shell helmet</label>
+    <description>A helmet made from a spiny shell; gives good proction from attacks, and some from heat and cold. Made at crafting spot or smithy.</description>
+    <techLevel>Neolithic</techLevel>
+    <graphicData>
+      <texPath>Things/SpinyHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+       <SpinyShell>1</SpinyShell>
+    </costList>   
+	<statBases>
+		<WorkToMake>2600</WorkToMake>
+		<MaxHitPoints>105</MaxHitPoints>
+		<Mass>2</Mass>
+        <ArmorRating_Sharp>0.55</ArmorRating_Sharp>
+        <ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+        <ArmorRating_Heat>0.30</ArmorRating_Heat>
+        <Insulation_Cold>4</Insulation_Cold>
+        <Insulation_Heat>2</Insulation_Heat>
+		<EquipDelay>2.5</EquipDelay>
+		<MarketValue>150</MarketValue>
+    </statBases>
+	<recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+	<apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/SpinyHelmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>  
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Apparel_BuzzyBeetleShellHelmet</defName>
+    <label>buzzy beetle shell helmet</label>
+    <description>A helmet made from a buzzy beetle shell; gives great proction from attacks, and some from heat and cold. Made at crafting spot or smithy.</description>
+    <techLevel>Neolithic</techLevel>
+    <graphicData>
+      <texPath>Things/BuzzyBeetleHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+       <BuzzyBeetleShell>1</BuzzyBeetleShell>
+    </costList>   
+	<statBases>
+		<WorkToMake>2700</WorkToMake>
+		<MaxHitPoints>120</MaxHitPoints>
+		<Mass>2</Mass>
+        <ArmorRating_Sharp>0.70</ArmorRating_Sharp>
+        <ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+        <ArmorRating_Heat>0.30</ArmorRating_Heat>
+        <Insulation_Cold>4</Insulation_Cold>
+        <Insulation_Heat>2</Insulation_Heat>
+		<EquipDelay>2.5</EquipDelay>
+		<MarketValue>200</MarketValue>
+    </statBases>
+	<recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+	<apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/BuzzyBeetleHelmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef> 
+  
+</Defs>
