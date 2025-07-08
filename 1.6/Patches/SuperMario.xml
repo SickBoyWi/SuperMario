@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+	<Operation Class="PatchOperationAdd">
+		<order>Append</order>
+		<xpath>
+			Defs/BiomeDef[defName = "BorealForest"]/wildAnimals |
+			Defs/BiomeDef[defName = "Tundra"]/wildAnimals |
+			Defs/BiomeDef[defName = "ColdBog"]/wildAnimals
+		</xpath>
+		<value>
+			<KoopaTroopa>0.15</KoopaTroopa>
+			<Spiny>0.15</Spiny>
+			<BuzzyBeetle>0.15</BuzzyBeetle>
+			<Goomba>0.15</Goomba>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<order>Append</order>
+		<xpath>
+			Defs/BiomeDef[defName = "TemperateForest"]/wildAnimals |
+			Defs/BiomeDef[defName = "TemperateSwamp"]/wildAnimals
+		</xpath>
+		<value>
+			<KoopaTroopa>0.3</KoopaTroopa>
+			<Spiny>0.3</Spiny>
+			<BuzzyBeetle>0.3</BuzzyBeetle>
+			<Goomba>0.3</Goomba>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<order>Append</order>
+		<xpath>
+			Defs/BiomeDef[defName = "TropicalRainforest"]/wildAnimals |
+			Defs/BiomeDef[defName = "TropicalSwamp"]/wildAnimals
+		</xpath>
+		<value>
+			<KoopaTroopa>0.35</KoopaTroopa>
+			<Spiny>0.35</Spiny>
+			<BuzzyBeetle>0.35</BuzzyBeetle>
+			<Goomba>0.35</Goomba>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<order>Append</order>
+		<xpath>
+			Defs/BiomeDef[defName = "AridShrubland"]/wildAnimals |
+			Defs/BiomeDef[defName = "Desert"]/wildAnimals
+		</xpath>
+		<value>
+			<KoopaTroopa>0.10</KoopaTroopa>
+			<Spiny>0.15</Spiny>
+			<BuzzyBeetle>0.15</BuzzyBeetle>
+			<Goomba>0.10</Goomba>
+		</value>
+	</Operation>
+
+</Patch>
+
